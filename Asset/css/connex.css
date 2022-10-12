@@ -1,0 +1,18 @@
+h3{ text-align:center; font-size: 40px; word-spacing: 7px;}
+
+p{ color: #AAAAAA; font-size: 13px; }
+
+.card{ display: block; margin-left: auto; margin-right: auto; background-color: white; border: 1px solid #545454; 
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0,2); transition: 0.3s; width: 25%; border-radius: 5px; }
+
+input[type=text], input[type=password] { width: 100%; padding: 12px 20px; margin: 8px 0; display: inline-block; border: 1px solid #ccc; 
+	border-radius:12px; box-sizing: border-box; text-align: center; }
+
+button { background-color: #7C7C7C; color: white; padding: 14px 20px; margin: 8px 0; border-radius:7px; border: none; 
+	cursor: pointer; width: 100%; }
+
+span{ color:red; font-size: 11px;}
+
+p,span{line-height: -2px;}
+
+footer{position: relative; left: 600px; top: 40px;}

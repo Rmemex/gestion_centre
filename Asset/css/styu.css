@@ -1,0 +1,56 @@
+/*liste*/
+ul.liste{ padding: 10px 16px; list-style: none; background-color: white; }
+
+ul.liste li{ display: inline; font-size: 18px; }
+
+ul.liste li+li:before{ padding: 8px; color: black; content: "/\00a0";}
+
+ul.liste li a{ color: #0275d8; text-decoration:none; }
+
+ul.liste li a:hover{ color: #01447e; text-decoration:underline; }
+
+
+/*Formulaire*/
+ul.formulaire li{ text-align: right;}
+
+li.container{ list-style-type: none; }
+
+.formul{ position: relative; left: 270px;}
+
+.liste, .search{ display: inline-block; }
+
+.search { padding: auto; border: 1px solid #AAAAAA; box-sizing: border-box; border-radius:12px; float: right; padding: 7px 5px; width: 20%; 
+	position: relative; top: 10px;}
+
+input[type=text], input[type=number],input[type=date],select { width: 30%; padding: 12px 20px; margin: 8px 0; 
+	border: 1px solid #AAAAAA; box-sizing: border-box; border-radius:12px; }
+
+.rad{width: 5%; padding: 10px 20px 10px 20px; margin: 18px 0 20px 0; }
+
+.motif{ width: 30%; padding: 35px 20px; margin: 8px 0; border: 1px solid #AAAAAA; box-sizing: border-box; border-radius:12px; }
+
+/*Bouton*/
+.envoi ,.agenda{ background-color: #60768B; color: white; padding: 11px 27px; margin: 8px 0; border-radius:7px; border: none; }
+
+.envoi{ position: relative; left: 125px; }
+
+.agenda { position: relative; left: 110px; }
+
+.bouton { background-color: #60768B; color: white; position: relative; left: 65px; padding: 14px 20px; margin: 8px 0; 
+	border-radius:7px; border: none; width: 20%; }
+
+
+/*Tableau*/
+.tabl{ font-family: arial, sans-serif; font-size: 12px; border-collapse: collapse; background-color: white; position: relative; left: 1px; 
+	width: 80%; }
+
+.tabl thead th{ background-color: white; border-collapse: collapse; border: 1px solid #BEBEBE; }
+
+.tabl td{ border: 1px solid #dddddd; border-collapse: collapse; text-align: center; word-spacing: 5px; padding: 8px; }
+
+.tabl th{ border-bottom: 1px solid #dddddd; border-collapse: collapse; text-align: center; word-spacing: 3px; padding: 8px; }
+
+.tabl tr:nth-child(even), .tabl td:hover,tr:hover { background-color: #F6F6F6;}
+
+.tabl a{ font-size: 12px; text-decoration: none; color: #60768B;}
+

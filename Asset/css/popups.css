@@ -1,0 +1,68 @@
+/* formulaire */
+    .lbl{ display: block; width: 100px; float: left; position: relative; left:70px; top: 9px; }
+
+    .lbl2{ display: block; width: 100px; float: left; position: relative; left:140px; top: 9px; }
+
+    .lbl3{ display: block; width: 100px; float: left; position: relative; left:20px; top:12px; }
+
+    .contn{ width: 53%; padding: 8px 14px; margin: 8px 0; display: inline-block; position: relative; left: 50px; top: -9px;
+      border: 1px solid #ccc; box-sizing: border-box; border-radius: 5px;  }
+
+    .ptt{ width: 15%; padding: 8px 14px; margin: 8px 0; display: inline-block; position: relative; left: -50px; top: -9px;
+      border: 1px solid #ccc; box-sizing: border-box; border-radius: 5px;  }
+
+    .ptt2{ width: 15%; padding: 8px 14px; margin: 8px 0; display: inline-block; position: relative; left: 60px; top: -9px;
+      border: 1px solid #ccc; box-sizing: border-box; border-radius: 5px;  }
+
+    .container { padding: 16px; position: relative; top:-9px; width: 50%; height: 350px;}
+
+    .container, .ordo { display: inline-block; }
+
+    .btn {background-color: #60768B; color: white; position: relative; left: 300px; top: 12px;padding: 12px 20px; margin: 8px 0; 
+  border-radius:7px; border: none; width: 20%;}
+
+    /* rendez-vous */
+    .rdv { float: left; width:; position: relative; left:65px; top: -100px;}
+
+    .heure{width: 13%;padding: 8px 14px; margin: 8px 0; border: 1px solid #ccc; box-sizing: border-box; border-radius: 5px;}
+
+    .daty{ width: 34%; padding: 8px 14px; margin: 8px 0; border: 1px solid #ccc; box-sizing: border-box; 
+      position: relative; left:-30px; border-radius: 5px;}
+
+    textarea{ border-radius: 7px; }
+
+    /*ordonnance*/
+    .ordo{width: 45%; float:right; border-left:1px solid #9A9A9A; position: relative; right: 15px; top: -400px; height: 475px;}
+    
+    .ajout{ background-color: #60768B; color: white; position: relative; left: 190px; top: -50px; padding: 12px 0; margin: 8px 0; 
+    border-radius:7px; border: none; width: 15%;  }
+
+    span.psw { float: right; padding-top: 16px; }
+
+    .modal { display: none;  position: fixed;  z-index: 1;  left: 0; top: 0; width: 100%;  height: 100%; 
+      background-color: rgb(0,0,0); background-color: rgba(0,0,0,0.4); padding-top: 60px; }
+
+    .modal-content { background-color: #E9E9E9; border: 1px solid #888; width: 70%; height: 650px; ;border-radius: 12px; 
+      position: relative; top:-20px; left: 200px;}
+
+    .animate {
+      -webkit-animation: animatezoom 0.6s;
+      animation: animatezoom 0.6s
+    }
+
+    @-webkit-keyframes animatezoom {
+      from {-webkit-transform: scale(0)} 
+      to {-webkit-transform: scale(1)}
+    }
+      
+    @keyframes animatezoom {
+      from {transform: scale(0)} 
+      to {transform: scale(1)}
+    }
+
+    /* Change styles for span and cancel button on extra small screens */
+    @media screen and (max-width: 300px) {
+      span.psw {
+         display: block;
+         float: none;
+      }

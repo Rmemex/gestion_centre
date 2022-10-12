@@ -1,0 +1,103 @@
+/*liste*/
+ul.liste{ padding: 10px 16px; list-style: none; background-color: white; }
+
+ul.liste li{ display: inline; font-size: 18px; }
+
+ul.liste li+li:before{ padding: 8px; color: black; content: "/\00a0";}
+
+ul.liste li a{ color: #0275d8; text-decoration:none; }
+
+ul.liste li a:hover{ color: #01447e; text-decoration:underline; }
+
+.cont{ position: relative; left: 5px; color: white; word-spacing: 7px; }
+
+/*Bouton*/
+.bouton { background-color: #60768B; color: white; position: relative; left: 475px; top: 12px;padding: 12px 20px; margin: 8px 0; 
+	border-radius:7px; border: none; width: 20%; }
+
+h1{ color: white; font-size: 24px; word-spacing: 5px; position: relative; left:15px}
+
+h3{ text-align: center; font-size: 32px; font-style: unset; color: #585858; }
+
+img, h1{ display: inline-block; }
+
+img { width: 49px;position: relative;left: 5px;top: 10px; }
+
+hr{ color: #AAAAAA;}
+
+/*fieldset*/
+li.conte { line-height: 25px; }
+
+.field,.l{ display: inline-block;}
+
+.field{ display: block; float: right; position: relative; right: 30px; top: 15px;}
+
+fieldset{ border-radius: 10px; width: 400px; height: 200px; border: 1px solid #AAAAAA;}
+
+legend{ margin-left: auto; margin-right: auto;}
+
+/*Bar_nav*/
+.navg { float: left;width: 20%;height: 970px;background: #BDBDBD}
+
+.navg a,li { color: black; text-decoration: none; }
+
+.navg a.active { background-color: #4CAF50; color: white; }
+
+button { color: white; padding: 14px 30px; margin: 8px 0; border: none; cursor: pointer; width: 35%; opacity: 0.9; }
+
+.accordion { background-color: #BDBDBD; color: white; cursor: pointer; padding: 18px; width: 100%; border: none; text-align: left; 
+  outline: none; font-size: 15px; transition: 0.4s; }
+
+.accordion:hover { background-color: transparent; }
+
+.panel { width: 86%; padding: 0 18px; display: none; background-color: #FFFFFF; overflow: hidden; }
+
+.panel a{ padding: 10px 65px 10px 0; position: relative; left:-5px; line-height: 50px; }
+
+.panel a:hover{ background-color: #F5F5F5; }
+
+.lbl{ display: block; width: 100px; float: left; margin-right: auto; margin-left: auto; position: relative; top: 10px;}
+
+.formu { width: 50%; padding: 8px 12px; margin: 4px 0; display: inline-block; border: 1px solid #ccc; 
+	border-radius:5px; box-sizing: border-box; text-align: center; }
+
+.btn {background-color: #60768B; color: white; position: relative; left:200px; padding: 8px 12px; font-size: 11px; 
+    border-radius:7px; border: none; width: 15%;  }
+
+.container{ position: relative; left: 85px; }
+
+/*Top-nav*/
+.topnav{ display: block; width: 100%; height: 75px; overflow: hidden; background-color: #343A40; }
+
+.dec{ float: right; position: relative; right: 10px; top: 7px; color: white; text-decoration: none}
+
+span.psw { float: right; padding-top: 16px; }
+
+    .modal { display: none;  position: fixed;  z-index: 1;  left: 0; top: 0; width: 100%;  height: 100%; 
+      background-color: rgb(0,0,0); background-color: rgba(0,0,0,0.4); padding-top: 60px; }
+
+    .modal-content { background-color: #E9E9E9; border: 1px solid #888; width: 40%; height: 410px; ;border-radius: 12px; 
+      position: relative; top:80px; left: 425px;}
+
+    .animate {
+      -webkit-animation: animatezoom 0.6s;
+      animation: animatezoom 0.6s
+    }
+
+    @-webkit-keyframes animatezoom {
+      from {-webkit-transform: scale(0)} 
+      to {-webkit-transform: scale(1)}
+    }
+      
+    @keyframes animatezoom {
+      from {transform: scale(0)} 
+      to {transform: scale(1)}
+    }
+
+    /* Change styles for span and cancel button on extra small screens */
+    @media screen and (max-width: 300px) {
+      span.psw {
+         display: block;
+         float: none;
+      }
+
